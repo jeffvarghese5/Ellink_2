@@ -21,6 +21,7 @@ namespace Ellink
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //this is your development environment
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
