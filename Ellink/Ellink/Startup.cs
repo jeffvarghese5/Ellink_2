@@ -33,7 +33,7 @@ namespace Ellink
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("I dont want this!");
                 });
             });
         }
